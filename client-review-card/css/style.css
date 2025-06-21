@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  background: #19223a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Marcellus", serif;
+}
+
+.wrapper {
+	padding: 80px 20px;
+}
+
+.wrapper .testimonial_item {
+	max-width: 370px;
+	width: 100%;
+	margin: 0 auto;
+	background: #ffffff;
+	border-radius: 4px;
+	padding: 25px;
+}
+
+.wrapper .testimonial_item .custom_flex {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+
+.wrapper .testimonial_item .custom_flex .testimonial_img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.wrapper .testimonial_item .custom_flex span {
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.4s all ease-in-out;
+}
+
+.wrapper .testimonial_item:hover .custom_flex span {
+	background: gray;
+}
+
+.wrapper .testimonial_item .custom_flex h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}
+
+.wrapper .testimonial_item .custom_flex h4 {
+    color: #767676;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.wrapper .testimonial_item .custom_flex .star_icon i {
+	margin-right: 2px;
+}
+
+.wrapper .testimonial_item p {
+    color: #2e2e2e;
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: 500;
+}
